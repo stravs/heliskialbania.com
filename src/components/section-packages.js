@@ -16,7 +16,7 @@ export default class SectionPackages extends React.Component {
             top: 0,
             width: "100%",
             height: "100%",
-            zindex: -1,
+            zIndex: -1,
             objectposition: "center right"
           }}
         />
