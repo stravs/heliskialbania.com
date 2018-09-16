@@ -23,7 +23,8 @@ export default class ContactForm extends React.Component {
       <div className="row row-eq-height no-gutters">
 
         <div className="offset-lg-2 col-lg-8 mt-4">
-          <form name="contact" method="POST" netlify="true" dataNetlifyHoneypot="bot-field" onSubmit={this.handleSubmit}>
+          <form name="contact" method="post" netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
               <label htmlFor="emailAdress">Your email adress</label>
               <input type="email" className="form-control" id="exampleInputEmail1" ariaDescribedby="emailHelp" placeholder="Enter email" />
