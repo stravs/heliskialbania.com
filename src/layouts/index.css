@@ -703,8 +703,7 @@ section img {
   top: 0;
   left: 0;
   width: 100% !important;
-  height: auto;
-  min-height: 400px;
+  height: 40vh;
   overflow: hidden;
 }
 

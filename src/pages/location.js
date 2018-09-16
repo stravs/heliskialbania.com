@@ -39,13 +39,13 @@ const LocationPage = ({ data }) => (
           <p>Located roughly  85 km from Mediterranean sea the snow pack resembles that of Alaska. The Prokletije is overall the wettest area of Europe. In the village of Boga, precipitation is 3,033 millimetres. At higher elevations snow is found most of the time even in the summer. In the winter some villages in  Albanian part of Prokletije are completely cut off from the rest of the world for months due to the very heavy snow.</p>  
         </div>
       </div>
-      <div 
+{/*      <div 
         className="row row-eq-height no-gutters gallery"
         >
         <ImgGallery terrainImage={data.terrainImage1}/>
         <ImgGallery terrainImage={data.terrainImage2}/>
         <ImgGallery terrainImage={data.terrainImage3}/>
-      </div>
+      </div>*/}
 
 
       <div className="row row-eq-height no-gutters mt-xs-4">
