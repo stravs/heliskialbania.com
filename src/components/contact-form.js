@@ -12,8 +12,11 @@ export default class ContactForm extends React.Component {
       body: encode({
         "form-name": form.getAttribute("name"),
         ...this.state
+      })
     })
-  })
+      .then(() => navigateTo(form.getAttribute("action")))
+      .catch(error => alert(error));
+  };
 
   render() {
     return (
