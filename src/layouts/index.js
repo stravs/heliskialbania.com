@@ -41,7 +41,7 @@ export const query = graphql`
         title
       }
     }
-    logoImage: imageSharp(id: { regex: "/logo/" }) {
+    logoImage: imageSharp(id: { regex: "/logo-heliski-albania/" }) {
       resolutions(width: 103, height: 44) {
         ...GatsbyImageSharpResolutions_noBase64
       }

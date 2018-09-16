@@ -42,10 +42,10 @@ export default class Footer extends React.Component {
          <div className="navbar  navbar-expand-lg justify-content-around mt-4 text-center"  >
            <ul className="navbar-nav">
              <li className="navbar-item">
-               <a className="nav-link" style={{ color: "rgba(0, 0, 0, 0.5)" }} href="/about-us">About us</a>
+               <a className="nav-link text-muted" href="/about-us">About us</a>
              </li>
              <li className="navbar-item">
-               <a className="nav-link" style={{ color: "rgba(0, 0, 0, 0.5)" }} href="/contact-us">Contact us</a>
+               <a className="text-muted nav-link" href="/contact-us">Contact us</a>
              </li>
 {/*             <li className="navbar-item">
                <a className="nav-link" href="/privicy">Privicy policy</a>

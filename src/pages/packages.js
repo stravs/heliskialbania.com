@@ -21,11 +21,11 @@ const PackagesPage = ({data}) => (
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <blockquote className="blockquote text-center">
-              <h2 className="mb-0">Dates 2019</h2>
-              <p className="mb-0">Week 1:   16.-23. February</p>
+              {/*<h6 className="mb-0">Dates 2019 | Week 1: 6.-23. February | Week 2: 23.February - 2.March | Week 3:   2.- 9.March | Week 4:   9.-16. March</h6>*/}
+              {/*<p className="mb-0"></p>
               <p className="mb-0">Week 2:   23.February - 2.March</p>
               <p className="mb-0">Week 3:   2.- 9.March</p>
-              <p className="mb-0">Week 4:   9.-16. March</p>
+              <p className="mb-0">Week 4:   9.-16. March</p>*/}
             </blockquote>
           </div>
         </div>
