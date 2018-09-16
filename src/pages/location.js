@@ -118,6 +118,7 @@ A recent report from geographers  details the discovery of four previously unkno
               width: "auto",
               height: "100%",
               zindex: -1,
+              
               objectposition: "center right"
             }}
           />
