@@ -3,6 +3,18 @@ import Containter from 'reactstrap';
 import Img from "gatsby-image";
 
 export default class ContactForm extends React.Component {
+  handleSubmit = e => {
+    e.preventDefault();
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...this.state
+    })
+  })
+
   render() {
     return (
       <div className="row row-eq-height no-gutters">
