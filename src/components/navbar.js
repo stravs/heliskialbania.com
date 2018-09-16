@@ -30,7 +30,7 @@ export default class NavbarMain extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="" light expand="md">
           <NavbarBrand href="/">
             <Img
               alt="Logo Heliski Albania"              

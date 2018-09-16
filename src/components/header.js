@@ -22,7 +22,7 @@ export default class Header extends React.Component {
               height: "100%",
             }}
           />
-          <h1 className="mb-1">Heliski Albania</h1>
+          <h1 className="mb-1 text-header" style={{ }}>HELISKI ALBANIA</h1>
           <h3 className="mb-5">
             <em>Ride first decents in unexplored Albanian alps</em>
           </h3>

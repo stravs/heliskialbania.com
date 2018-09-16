@@ -635,6 +635,10 @@ pre tt:after {
   .gallery {
     height: 100% !important;
   }
+
+  .text-header {
+    font-size: 3rem !important;
+  }
 }
 
 .packages {
@@ -648,6 +652,11 @@ header {
   overflow: hidden;
   position: relative;
   height: 89vh;
+}
+
+.text-header {
+  font-size: 5.5rem;
+  font-weight: 800;
 }
 
 header img {
