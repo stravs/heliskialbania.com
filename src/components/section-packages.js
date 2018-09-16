@@ -54,7 +54,7 @@ export default class SectionPackages extends React.Component {
               </div>
             </div>
           </div>
-          <a href="/packages" className="btn btn-primary btn-block" style={{ zindex: 2 }}>See our packages</a>
+          <a href="/packages" className="btn btn-primary btn-block mb-5" style={{ zindex: 2 }}>See our packages</a>
         </div>
       </section>
     );

@@ -46,7 +46,7 @@ export const query = graphql`
         ...GatsbyImageSharpSizes
       }
     } 
-    safetyImage: imageSharp(id: { regex: "/safety/" }) {
+    safetyImage: imageSharp(id: { regex: "/safer/" }) {
       sizes(maxWidth: 2000 ) {
         ...GatsbyImageSharpSizes
       }
