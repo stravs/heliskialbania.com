@@ -27,12 +27,12 @@ export default class ContactForm extends React.Component {
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
               <label htmlFor="emailAdress">Your email adress</label>
-              <input type="email" className="form-control" id="exampleInputEmail1" ariaDescribedby="emailHelp" placeholder="Enter email" />
+              <input type="email" className="form-control" id="exampleInputEmail1" ariaDescribedby="emailHelp" placeholder="Enter email" name="email" />
               <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div className="form-group">
               <label htmlFor="package">Package you are intrested in</label>
-              <select className="form-control" id="package">
+              <select name="package" className="form-control" id="package">
                 <option>One week</option>
                 <option>Private</option>
                 <option>I have other questions</option>
@@ -40,7 +40,7 @@ export default class ContactForm extends React.Component {
             </div>
             <div className="form-group">
               <label htmlFor="body">Your message</label>
-              <textarea className="form-control" id="body" rows="6"></textarea>
+              <textarea name="body" className="form-control" id="body" rows="6"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Send</button>
           </form>
