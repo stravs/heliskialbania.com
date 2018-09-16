@@ -23,7 +23,7 @@ export default class Section extends React.Component {
             }}
           />
         </div>
-        <div className="col-lg-6 pt-5 pb-5 p-lg-5 my-auto">
+        <div className="col-lg-6 pt-2 pb-2 px-lg-5 my-auto">
           <h1>{this.props.title}</h1>
           <p>{this.props.text}</p> 
           <h1>{this.props.titleSecond}</h1>

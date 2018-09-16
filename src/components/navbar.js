@@ -35,11 +35,12 @@ export default class NavbarMain extends React.Component {
             <Img
               alt="Logo Heliski Albania"              
               resolutions={this.props.logoImage.resolutions}
+              style={{ opacity: 0.6 }}
             />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="" navbar>
+            <Nav className="navbar-right" navbar>
               <NavItem>
                 <NavLink href="/location/">Location</NavLink>
               </NavItem>

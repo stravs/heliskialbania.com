@@ -39,13 +39,13 @@ export default class Footer extends React.Component {
              <img src="https://via.placeholder.com/100x100" alt="" />  
            </div>*/}
          </div>
-         <div className="navbar navbar-expand-lg justify-content-around mt-4 text-center">
+         <div className="navbar  navbar-expand-lg justify-content-around mt-4 text-center"  >
            <ul className="navbar-nav">
              <li className="navbar-item">
-               <a className="nav-link" href="/about-us">About us</a>
+               <a className="nav-link" style={{ color: "rgba(0, 0, 0, 0.5)" }} href="/about-us">About us</a>
              </li>
              <li className="navbar-item">
-               <a className="nav-link" href="/contact-us">Contact us</a>
+               <a className="nav-link" style={{ color: "rgba(0, 0, 0, 0.5)" }} href="/contact-us">Contact us</a>
              </li>
 {/*             <li className="navbar-item">
                <a className="nav-link" href="/privicy">Privicy policy</a>
@@ -53,7 +53,7 @@ export default class Footer extends React.Component {
            </ul>
          </div>
          <br/>
-         <p className="text-muted small mb-0 text-center">Heliski Albania 2018</p>
+         <p className="text-muted small text-center mb-5">Heliski Albania 2018</p>
        </div>   
       </footer>
     );
