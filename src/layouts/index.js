@@ -17,6 +17,7 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Heliski Albania is a heliski operation based in Valbona valley in Prokletije mountain range. Run by a team of highly qualified IFMGA mountain guides it offers exclusive access to one of the last unskied terrains in Europe. Maritime snowpack, wild mountains and great atmosphere combined with strict safety protocols are a guarantee for an unforgettable week-long experience on skies or snowboards. ' },
         { name: 'keywords', content: 'heliski, ' },
+        { name: 'google-site-verification', content: 'iD56Fm3vQX3HH93qxmHOVTe_Tg9dmLs-ANMl_YFEmLk'}
       ]}
     />
    
