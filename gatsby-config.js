@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Heliski Albania',
-    description: 'jedi govna',
-    keywords: 'spizid, se, enkrats'
+    siteUrl: `https://www.heliskialbania.com`,
   },
   plugins: [
   	'gatsby-plugin-react-helmet',
@@ -26,6 +25,7 @@ module.exports = {
   	  },
   	},	
   	`gatsby-transformer-sharp`,
-  	`gatsby-plugin-sharp`
+  	`gatsby-plugin-sharp`,
+  	`gatsby-plugin-sitemap`
   ],
 }
