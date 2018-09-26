@@ -26,6 +26,10 @@ export default class ContactForm extends React.Component {
           <form name="contact" action="https://formspree.io/info@heliskialbania.com"
       method="POST">
             <div className="form-group">
+              <label htmlFor="emailAdress">Your name</label>
+              <input className="form-control" ariaDescribedby="emailHelp" placeholder="Enter you name" name="name" />
+            </div>
+            <div className="form-group">
               <label htmlFor="emailAdress">Your email adress</label>
               <input type="email" className="form-control" id="exampleInputEmail1" ariaDescribedby="emailHelp" placeholder="Enter email" name="email" />
               <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
