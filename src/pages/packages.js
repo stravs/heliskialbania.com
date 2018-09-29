@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Section from '../components/section'
 import SectionRight from '../components/section-right'
 import Package from '../components/package'
+import Tiles from '../components/tiles'
 
 const PackagesPage = ({data}) => (	
 	<div className="packages">
@@ -14,7 +15,7 @@ const PackagesPage = ({data}) => (
 	      marginRight: 0
 	    }}
 	    >
-	    <Section sectionImage={data.hobsImage} title="What do I get for packages based on (hobbs) flying time?" text="Flying time is measured by the Hobbs meter- an instrument on board of the helicopter. The Hobbs meter begins to count flying time when the pilot pulls up the collective. Raising the collective causes the helicopter to climb – at this point the Hobbs meter starts tracking your flying time. Hobbs meter does not record time while helicopter is being on the ground with collective down- at pick up or landing zone, while refuelling…  We strongly believe this is the most honest way for our clients when buying heliskiing packages.
+	    <SectionRight sectionImage={data.hobsImage} title="What do I get for packages based on (hobbs) flying time?" text="Flying time is measured by the Hobbs meter- an instrument on board of the helicopter. The Hobbs meter begins to count flying time when the pilot pulls up the collective. Raising the collective causes the helicopter to climb – at this point the Hobbs meter starts tracking your flying time. Hobbs meter does not record time while helicopter is being on the ground with collective down- at pick up or landing zone, while refuelling…  We strongly believe this is the most honest way for our clients when buying heliskiing packages.
  With the proximity of 6-10 minute flying time to our prime terrain from our base in Valbona there will be minimum time spent for refuel and ferry flights from one zone to another.  Four hours of flying time, with the terrain that we fly, is roughly translated into 25-30 runs per group with runs from 400-1600 vertical meters. 
 "/>
 {/*      <div className="container text-center py-2 py-lg-5">
@@ -30,6 +31,13 @@ const PackagesPage = ({data}) => (
           </div>
         </div>
       </div>*/}
+      <Tiles tilesImage={data.datesImage} addClass="">
+        <h1>Dates 2019</h1>
+        <h5>Week 1:   16.-23. February</h5>
+        <h5>Week 2:   23.February - 2.March</h5>
+        <h5>Week 3:   2.- 9.March</h5>
+        <h5>Week 4:   9.-16. March</h5>
+      </Tiles>
       <SectionRight sectionImage={data.weekPackageImage} title="One week heliskiing" description="This is a classic heliskiing package based on 4 (hobbs) hours of fly time. Why don’t we sell vertical meters? When buying flying time we guarantee you to have the best possible experience and terrain. We will fly to the areas with the best snow and conditions and also to the terrain that suits you group best.  You will share your seat in a group of 4 skiers and  a guide. We warmly encourage you to book your seats together in a group of 4 buddies that are at the same level of skiing and therefore have the best possible experience. There will be maximum 3 groups per helicopter on the snow at the same time. Normally there is no waiting time for any of the groups with this set up. Are you more than 4 in your group ? Than consider booking Private Heliski Albania package for best possible experience and have the entire operation for yourself!
 " heli="1 helicopter –small group of 4 skiers 1 guide—3 groups max per 1 helicopter—4 (hobbs) hours of flying time per 1 group of 4 skiers
 " includes="The package includes 7 nights with full board accommodation, 4(hobbs) hours of flying time,  6 days of skiing, IFMGA mountain guides" />
@@ -67,6 +75,11 @@ export const query = graphql`
       }
     }  
     heliImage: imageSharp(id: { regex: "/helicopter/" }) {
+      sizes(maxWidth: 1280 ) {
+        ...GatsbyImageSharpSizes
+      }
+    } 
+    datesImage: imageSharp(id: { regex: "/dates/" }) {
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
       }
