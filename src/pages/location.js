@@ -132,7 +132,7 @@ A recent report from geographers  details the discovery of four previously unkno
               <p><strong>Pristina, Kosovo</strong> – 180 km and about 3 h drive from airport to Valbona valley. Have in mind border crossing between Kosovo and Albania.</p>
             </li>
             <li>
-              <p><strong>Skopje, Macedobnia</strong> –  225 km - about 4 h drive from the airport to Valbona valley. You will cross the borders between Macedonia, Kosovo and Albania.</p>
+              <p><strong>Skopje, Macedonia</strong> –  225 km - about 4 h drive from the airport to Valbona valley. You will cross the borders between Macedonia, Kosovo and Albania.</p>
             </li>
             <li>
               <p><strong>Tirana, Albania</strong> –  300 km and about 4.30 h drive from airport to Valbona valley. Have in mind border crossing between Albania and Kosovo.</p>

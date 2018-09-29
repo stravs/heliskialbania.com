@@ -12,6 +12,8 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 import Img from "gatsby-image";
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 
 export default class NavbarMain extends React.Component {
   constructor(props) {
@@ -48,6 +50,14 @@ export default class NavbarMain extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="/packages/">Packages</NavLink>
+              </NavItem>
+            </Nav>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="https://www.instagram.com/heliskialbania/"><FaInstagram /></NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://www.facebook.com/heliskialbania/"><FaFacebook /></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
