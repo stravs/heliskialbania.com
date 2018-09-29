@@ -54,10 +54,10 @@ export default class NavbarMain extends React.Component {
             </Nav>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="https://www.instagram.com/heliskialbania/"><FaInstagram /></NavLink>
+                <NavLink href="https://www.instagram.com/heliskialbania/" target="_blank"><FaInstagram /></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.facebook.com/heliskialbania/"><FaFacebook /></NavLink>
+                <NavLink href="https://www.facebook.com/heliskialbania/" target="_blank"><FaFacebook /></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
