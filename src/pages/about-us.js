@@ -20,7 +20,7 @@ const AboutUsPage = ({data}) => (
 We strongly believe the Nature is our biggest asset, respecting and preserving it is the only way for us to enjoy its gifts also in the future.  For us working with small groups, including the local community with their traditions and great food is the only right way to bring tourism to these unspoiled parts of the world.
 " />*/}
 
-      <Tiles tilesImage={data.aboutImage}>
+      <Tiles tilesImage={data.aboutImage} altText="">
         <h1>About us</h1>
         <p>Heliski Albania is a team of professionals in love with the mountains and everything connected to them. Coming from different backgrounds and places we have a shared passion: Exploring new locations and bringing people to the undiscovered and wild mountains to do their (and our) favourite sport. We strongly believe the Nature is our biggest asset, respecting and preserving it is the only way for us to enjoy its gifts also in the future. For us working with small groups, including the local community with their traditions and great food is the only right way to bring tourism to these unspoiled parts of the world.</p>
       </Tiles>

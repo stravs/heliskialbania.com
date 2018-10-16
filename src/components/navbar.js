@@ -15,6 +15,7 @@ import Img from "gatsby-image";
 import { FaInstagram } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 
+
 export default class NavbarMain extends React.Component {
   constructor(props) {
     super(props);
@@ -37,6 +38,7 @@ export default class NavbarMain extends React.Component {
             <Img
               alt="Logo Heliski Albania"              
               resolutions={this.props.logoImage.resolutions}
+              className="mt-2"
             />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

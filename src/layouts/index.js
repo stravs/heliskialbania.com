@@ -19,6 +19,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'heliski, albania, ski, snowboard, first, decents, heli, mountain, snow, Valbona, Albania, Balkan, fun' },
         { name: 'google-site-verification', content: 'iD56Fm3vQX3HH93qxmHOVTe_Tg9dmLs-ANMl_YFEmLk'}
       ]}
+      link= {[
+        {href:'https://fonts.googleapis.com/css?family=Playfair+Display', rel:'stylesheet'},
+      ]}
     />
    
     <NavbarMain logoImage={data.logoImage} /> 
@@ -42,8 +45,8 @@ export const query = graphql`
         title
       }
     }
-    logoImage: imageSharp(id: { regex: "/logo-heliski/" }) {
-      resolutions(width: 103, height: 44) {
+    logoImage: imageSharp(id: { regex: "/logo/" }) {
+      resolutions(width: 200, height: 20) {
         ...GatsbyImageSharpResolutions_noBase64
       }
     }   

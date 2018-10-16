@@ -8,7 +8,7 @@ export default class Section extends React.Component {
       <div className="row row-eq-height no-gutters">
         <div className={"col-lg-6 " + (this.props.addClass)}>
           <Img
-            alt="Logo Heliski Albania"              
+            alt={this.props.altText}              
             sizes={this.props.tilesImage.sizes}
             className="square" 
             style={{
