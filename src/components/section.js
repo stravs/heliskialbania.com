@@ -31,9 +31,9 @@ export default class Section extends React.Component {
           <p>{this.props.description}</p> 
           <p><strong>{this.props.heli}</strong></p>
           <p><strong>{this.props.includes}</strong></p>  
-          <h5><strong>{this.props.price}</strong></h5>
-          <h5><strong>{this.props.priceSecond}</strong></h5>
-          <h5><strong>{this.props.priceThird}</strong></h5>
+          <p><strong>{this.props.price}</strong></p>
+          <p><strong>{this.props.priceSecond}</strong></p>
+          <p><strong>{this.props.priceThird}</strong></p>
         </div>
       </div>
     );
