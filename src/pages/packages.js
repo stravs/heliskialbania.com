@@ -32,11 +32,14 @@ const PackagesPage = ({data}) => (
         </div>
       </div>*/}
       <Tiles tilesImage={data.datesImage} addClass="">
-        <h1>Dates 2019</h1>
-        <h5>Week 1:   16.-23. February</h5>
-        <h5>Week 2:   23. February - 2. March</h5>
-        <h5>Week 3:   2.- 9. March</h5>
-        <h5>Week 4:   9.-16. March</h5>
+        <h1>Dates 2020</h1>
+        <h5>Week 1:   15.- 22. February</h5>
+        <h5>Week 2:   22.- 29. February</h5>
+        <h5>Week 3:   29. February - 7. March</h5>
+        <h5>Week 4:   7.- 14. March</h5>
+
+
+
       </Tiles>
       <SectionRight sectionImage={data.weekPackageImage} title="One week heliskiing" description="This is a classic heliskiing package based on 4 (hobbs) hours of fly time. Why don’t we sell vertical meters? When buying flying time we guarantee you to have the best possible experience and terrain. We will fly to the areas with the best snow and conditions and also to the terrain that suits you group best.  You will share your seat in a group of 4 skiers and  a guide. We warmly encourage you to book your seats together in a group of 4 buddies that are at the same level of skiing and therefore have the best possible experience. There will be maximum 3 groups per helicopter on the snow at the same time. Normally there is no waiting time for any of the groups with this set up. Are you more than 4 in your group ? Than consider booking Private Heliski Albania package for best possible experience and have the entire operation for yourself!
 " heli="1 helicopter –small group of 4 skiers 1 guide—3 groups max per 1 helicopter—4 (hobbs) hours of flying time per 1 group of 4 skiers
