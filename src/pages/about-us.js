@@ -52,25 +52,25 @@ It is always hard to describe with words a person like Luka. For us, he is truly
 
 </p>
       </Tiles>
-      <Tiles tilesImage={data.vivaImage} addClass="order-lg-last">
+      <Tiles tilesImage={data.vivaImage} addClass="">
         <h1>Viva helicopters</h1>
         <p>With more than 25 years of experience, headquartered in Neuhausen, Germany, AeroHeli is a mother company of VIVA Helicopters, the first commercial helicopter operator in Albania.</p>
         <p>VIVA’s pilots, maintenance technicians and support personnel are all committed to safety and service excellence.</p>
       </Tiles>
-      <Tiles tilesImage={data.petraImage} addClass="">
+      <Tiles tilesImage={data.petraImage} addClass="order-lg-last">
         <h1>Petra Brajnik</h1>
         <h3>Co-founder, Office manager</h3>
         <p>Born in the heart of the Julian Alps she grew up with the love for the mountains and nature. Skiing, snowboarding, climbing and later BASE jumping in Slovenian mountains progressed in exploring the hidden jewels all over the world. Being fortunate enough to see different countries and conditions people live in made her more responsible to her surroundings. She worked with several NGOs on different projects, organized cultural, art and sport events in her local community and around the globe, worked as a snowboard instructor , been a part of different sport events and film productions as an athlete as well as a part of the safety management team.
 She always felt a strong connection to the Balkans,  wished she could introduce this beautiful part of the world to the people around the globe. Finally this moment has arrived! </p>
       </Tiles>
-      <Tiles tilesImage={data.sebbImage} addClass="order-lg-last">
+      <Tiles tilesImage={data.sebbImage} addClass="">
         <h1>Sebastian Fleiss</h1>
         <h3>Co-founder</h3>
         <p>Sebastian is an adventurer with endless drive. A unique outdoorsy person with contagious positive energy. In his youth he discovered two of his biggest passions; Sea and Snow. He was a member of Croatian alpine ski racing team, eventually fell in love with snowboarding, competing in big air and border cross competitions.</p>
         <p>He is the owner of Lynx freeride doing an awesome job with a cat skiing operation at mt. Gjeravica region, the highest mountain in Kosovo!
 Sebastian has been working as a location scout, handled the logistics and worked as coordinator for some of the biggest production companies in the world. He brought TGR to Valbona and he is the one to blame that Heliski Albania was born. An explorer and a visionary, a true Balkan region lover!</p>
       </Tiles>
-      <Tiles tilesImage={data.stravsImage} addClass="">
+      <Tiles tilesImage={data.stravsImage} addClass="order-lg-last">
         <h1>Anže Štravs</h1>
         <h3>Runner, dispatcher</h3>
         <p>Born and raised in the Julian Alps, Slovenia, Anže was always connected with mountains and nature. After years of training on skis and ski jumping he switched to snowboarding and skateboarding. He likes to fly low, float around on his board - winter or summer. Anže is our strong asset, a jack of all trades, working on web design and social media. 
