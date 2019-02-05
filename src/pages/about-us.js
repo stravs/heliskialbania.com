@@ -51,6 +51,12 @@ For his first ever expedition together with his partner they received Piolet dâ€
 It is always hard to describe with words a person like Luka. For us, he is truly a reliable and trusted guide. Every link in private operations has to be strong and for sure Luka makes our team much stronger. He is a very passionate skier and will be more than happy to guide first descents in Albanian Alps.
 
 </p>
+      </Tiles>
+      <Tiles tilesImage={data.sornImage} addClass="">
+        <h1>Mitja Å orn</h1>
+        <h3>Guide</h3>
+        <p>Mitja is a president of the Slovenian mountain guides association, member of technical commission and an IFMGA instructor . He has guided all over the Alps, but found his passion in bringing people to the beautiful and still less discovered places in the Balkans. He spends his summers guiding around Mt. Triglav in Slovenia. He is a passionate skier, a great guide, but most of all an amazingly positive and warm person always great to hang out with.</p>
+      </Tiles>
       <Tiles tilesImage={data.vivaImage} addClass="order-lg-last">
         <h1>Viva helicopters</h1>
         <p>With more than 25 years of experience, headquartered in Neuhausen, Germany, AeroHeli is a mother company of VIVA Helicopters, the first commercial helicopter operator in Albania.</p>
@@ -102,7 +108,12 @@ export const query = graphql`
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
       }
-    } 
+    }
+    sornImage: imageSharp(id: { regex: "/sorn/" }) {
+      sizes(maxWidth: 1280 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }  
     lukaImage: imageSharp(id: { regex: "/luka/" }) {
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
