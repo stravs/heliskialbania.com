@@ -102,12 +102,7 @@ export const query = graphql`
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
       }
-    }
-    sornImage: imageSharp(id: { regex: "/sorn/" }) {
-      sizes(maxWidth: 1280 ) {
-        ...GatsbyImageSharpSizes
-      }
-    }  
+    } 
     lukaImage: imageSharp(id: { regex: "/luka/" }) {
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
