@@ -7,7 +7,7 @@ export default class SectionPackages extends React.Component {
     return (
       <section className="d-flex packages">
         <Img
-          alt="Logo Heliski Albania"              
+          alt="Prokletje mountain range"              
           sizes={this.props.packagesImage.sizes}
           className=""
           style={{

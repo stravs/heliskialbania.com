@@ -7,7 +7,7 @@ export default class SectionExpiriance extends React.Component {
     return (
       <section className="d-flex right">
         <Img
-          alt="Logo Heliski Albania"              
+          alt="Nice couloir in Albanian Alps"              
           sizes={this.props.expirianceImage.sizes}
           className=""
           style={{

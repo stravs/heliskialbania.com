@@ -8,7 +8,7 @@ export default class TitleImg extends React.Component {
       <div className="row row-eq-height no-gutters">
         <div className="col-lg-12">
           <Img
-            alt="Logo Heliski Albania"              
+            alt="Contact photo for Heliski Albania"              
             sizes={this.props.sectionImage.sizes}
             className="" 
             style={{

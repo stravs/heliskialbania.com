@@ -10,7 +10,7 @@ export default class Header extends React.Component {
       <header className="d-flex">
         <div className="container-fluid text-center my-auto">
           <Img
-            alt="Logo Heliski Albania"              
+            alt="Charging a line in Prokletje mountain range"              
             sizes={this.props.headerImage.sizes}
             className=""
             style={{

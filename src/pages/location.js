@@ -19,7 +19,7 @@ const LocationPage = ({ data }) => (
       <div className="row row-eq-height no-gutters">
         <div className="col-lg-6">
           <Img
-            alt="Logo Heliski Albania"              
+            alt="Happy people on top of a mountain"              
             sizes={data.snowImage.sizes}
             className="square"
             style={{
@@ -51,7 +51,7 @@ const LocationPage = ({ data }) => (
       <div className="row row-eq-height no-gutters mt-xs-4">
         <div className="col-lg-6 my-auto order-lg-last">
           <Img
-            alt="Logo Heliski Albania"              
+            alt="Helicopter drop off on top of a mountain in Albanian Alps"              
             sizes={data.terrainImage4.sizes}
             className="square"
             style={{
@@ -83,7 +83,7 @@ const LocationPage = ({ data }) => (
       <div className="row row-eq-height no-gutters">
         <div className="col-lg-6">
           <Img
-            alt="Logo Heliski Albania"              
+            alt="A lot of snow in Prokletije mountain range"              
             sizes={data.glacierImage.sizes}
             className="square"
             style={{
@@ -107,7 +107,7 @@ A recent report from geographers  details the discovery of four previously unkno
       <div className="row row-eq-height no-gutters">
         <div className="col-lg-6 order-lg-last">
           <Img
-            alt="Logo Heliski Albania"              
+            alt="Prokletije mountain range"              
             sizes={data.wildlifeImage.sizes}
             className="square"
             style={{
