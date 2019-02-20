@@ -46,7 +46,7 @@ const PackagesPage = ({data}) => (
 " includes="The package includes 7 nights with full board accommodation, 4(hobbs) hours of flying time,  6 days of skiing, IFMGA mountain guides" price="6350€ per person" priceSecond="Extra hour of flying time- 2260€ per group" />
       <Section sectionImage={data.privateImage} title="Private Heliski Albania" description="Having the whole operation and 1500 square km of mountains for yourself. We guarantee you will have the best possible experience. In this package you will have 8-12 (hobbs) hours of fly time in a helicopter with up to max. 12 people in the group. Come with your buddies and have the entire Albanian Prokletije mountains for yourself. Program is based on fly time, so we can choose to ski the best terrain  that suits you group and find the best snow available at the time of you stay.
 " heli="1 helicopter only for your group— entire operation only for your group--up to 12 people in a group- up to 12(hobbs) hours of flying time
-" includes="The package includes 7 nights with full board accommodation, 8 to 12 hours of flying time,  6 possible days of skiing, IFMGA mountain guides" price="Price up to 8 people, 8 (hobs)  hours 48 650€" priceSecond="Price up to 12 people, 12 (hobs) hours 71 350€" priceThird="Extra (hour) of flying time- 2260€" />      
+" includes="The package includes 7 nights with full board accommodation, 8 to 12 hours of flying time,  6 possible days of skiing, IFMGA mountain guides" price="Price up to 8 people, 8 (hobs)  hours 48 650€ per group" priceSecond="Price up to 12 people, 12 (hobs) hours 71 350€ per group" priceThird="Extra (hour) of flying time- 2260€ per group" />      
     </div>
   </div>
 	

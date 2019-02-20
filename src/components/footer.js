@@ -53,7 +53,7 @@ export default class Footer extends React.Component {
            </ul>
          </div>
          <br/>
-         <p className="text-muted small text-center mb-5">Heliski Albania 2018</p>
+         <p className="text-muted small text-center mb-5">Heliski Albania 2019</p>
        </div>   
       </footer>
     );
