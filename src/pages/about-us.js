@@ -30,7 +30,7 @@ We strongly believe the Nature is our biggest asset, respecting and preserving i
         <h1>Rok Zalokar</h1>
         <h3>Lead guide, Co-founder</h3>
         <p>Rok is an IMFGA mountain guide and instructor for future guides. He is a well respected heliski guide with years of experience working in Europe and Alaska both guiding and educating.
-He is a member of Pieps pro team, a part of the job that gives him inside knowledge in avalanche education and getting in touch with latest state of the art safety equipment. He has been educating individuals as well as professionals such as mountain rescue teams and military about avalanche safety and rescue procedures for the past 5 years.
+He is a member of Pieps pro team, a part of the job that gives him inside knowledge in avalanche education and getting in touch with latest state of the art safety equipment. He has been educating individuals as well as professionals such as mountain rescue teams and military about avalanche safety and rescue procedures for the past 5 years. <br/><br/>
 He grew up in Slovenia with magnificent Julian Alps as his backyard. At age 13 he was climbing big walls, skiing steeps at 15, and started with expeditions to the Himalayas at 17.
 He put up a new route on an unclimbed 7070m high Janak mountain in the Himalaya
 and completed several climbing expeditions in Peru, Kyrgyzstan, Patagonia Tibet, Nepal, and India.
@@ -40,13 +40,13 @@ Skiing (especially Heliskiing) and exploring new places is his passion. Working 
       <Tiles altText="Enrico Mosetti" tilesImage={data.moseImage} addClass="">
         <h1>Enrico Karletto Mosetti</h1>
         <h3>Snow safety director and guide</h3>
-        <p>Enrico is for sure one of the best steep skiers of this time. In 2017 he became the youngest IFMGA guide in Friuli Venezia Giulia area, where for the past few years he has also been working as an avalanche forecaster.<br/>He skied lots of steep classic lines around Julian Alps and the Dolomites. He has been on several ski trip/expedition, skied from 6000 meters peaks in the Cordillera Blanca (2015), attempted Laila peak in Karakorum (2016), skied in the Svaneti range on Caucasus (2017), same season in New Zeland winning the first edition of the Skiolet d’or for the first descent of Caroline face on Aoraki/mount Cook, last spring again in Peru in Cordillera Vilcanota.
+        <p>Enrico is for sure one of the best steep skiers of this time. In 2017 he became the youngest IFMGA guide in Friuli Venezia Giulia area, where for the past few years he has also been working as an avalanche forecaster.<br/><br/>He skied lots of steep classic lines around Julian Alps and the Dolomites. He has been on several ski trip/expedition, skied from 6000 meters peaks in the Cordillera Blanca (2015), attempted Laila peak in Karakorum (2016), skied in the Svaneti range on Caucasus (2017), same season in New Zeland winning the first edition of the Skiolet d’or for the first descent of Caroline face on Aoraki/mount Cook, last spring again in Peru in Cordillera Vilcanota.
 He is a trusted guide with lots of experience and knowledge on snow safety with a great eye for finding amazing lines.</p>
       </Tiles>
       <Tiles altText="Luka Strazar" tilesImage={data.lukaImage} addClass="order-lg-last">
         <h1>Luka Stražar</h1>
         <h3>Guide</h3>
-        <p>Luka is one of the worlds best alpinists and loves to change ice axes for skis. In the last decade he gradually build up his level of mountaineering and also became one of the elite IFMGA mountain guides. His experience from expeditions and climbing big walls all around the world are a big factor when it comes to delicate decision making.
+        <p>Luka is one of the worlds best alpinists and loves to change ice axes for skis. In the last decade he gradually build up his level of mountaineering and also became one of the elite IFMGA mountain guides. His experience from expeditions and climbing big walls all around the world are a big factor when it comes to delicate decision making. <br/><br/>
 For his first ever expedition together with his partner they received Piolet d’Or award. This season they were  very successful in Pakistan climbing Latok 1, one of the most wanted mountains in the latest years amongst climbing community. This are just a few of his many expeditions to the highest ranges on the planet. <br/>
 It is always hard to describe with words a person like Luka. For us, he is truly a reliable and trusted guide. Every link in private operations has to be strong and for sure Luka makes our team much stronger. He is a very passionate skier and will be more than happy to guide first descents in Albanian Alps.
 
@@ -60,7 +60,7 @@ It is always hard to describe with words a person like Luka. For us, he is truly
 					to fly in the mountain areas. With 5000 flight hours and variety of
 					different missions in whole of Europe and Asia -  firefighting,
 					slingload, laserscanning missions and of course heliskiing - he is The
-					Man in our operation. He is the pilot with the most experience in the
+					Man in our operation. <br/><br/>He is the pilot with the most experience in the
 					area of Albanian Alps, he was flying for TGR while filming the movie
 					“Far Out” in this area and been a stunt pilot for different German movie
 					productions.  In a small private operation every person plays an
@@ -71,7 +71,7 @@ It is always hard to describe with words a person like Luka. For us, he is truly
       <Tiles altText="Petra Brajnik" tilesImage={data.petraImage} addClass="order-lg-last">
         <h1>Petra Brajnik</h1>
         <h3>Co-founder, Office manager</h3>
-        <p>Born in the heart of the Julian Alps she grew up with the love for the mountains and nature. Skiing, snowboarding, climbing and later BASE jumping in Slovenian mountains progressed in exploring the hidden jewels all over the world. Being fortunate enough to see different countries and conditions people live in made her more responsible to her surroundings. She worked with several NGOs on different projects, organized cultural, art and sport events in her local community and around the globe, worked as a snowboard instructor , been a part of different sport events and film productions as an athlete as well as a part of the safety management team.
+        <p>Born in the heart of the Julian Alps she grew up with the love for the mountains and nature. Skiing, snowboarding, climbing and later BASE jumping in Slovenian mountains progressed in exploring the hidden jewels all over the world. Being fortunate enough to see different countries and conditions people live in made her more responsible to her surroundings. <br/><br/> She worked with several NGOs on different projects, organized cultural, art and sport events in her local community and around the globe, worked as a snowboard instructor , been a part of different sport events and film productions as an athlete as well as a part of the safety management team.
 She always felt a strong connection to the Balkans,  wished she could introduce this beautiful part of the world to the people around the globe. Finally this moment has arrived! </p>
       </Tiles>
       <Tiles altText="Sebastian Fleiss" tilesImage={data.sebbImage} addClass="">
@@ -81,7 +81,7 @@ She always felt a strong connection to the Balkans,  wished she could introduce 
         <p>He is the owner of Lynx freeride doing an awesome job with a cat skiing operation at mt. Gjeravica region, the highest mountain in Kosovo!
 Sebastian has been working as a location scout, handled the logistics and worked as coordinator for some of the biggest production companies in the world. He brought TGR to Valbona and he is the one to blame that Heliski Albania was born. An explorer and a visionary, a true Balkan region lover!</p>
       </Tiles>
-      <Tiles altText="Anze Stravs" tilesImage={data.stravsImage} addClass="order-lg-last">
+      <Tiles altText="Anze Štravs" tilesImage={data.stravsImage} addClass="order-lg-last">
         <h1>Anže Štravs</h1>
         <h3>Runner, dispatcher</h3>
         <p>Born and raised in the Julian Alps, Slovenia, Anže was always connected with mountains and nature. After years of training on skis and ski jumping he switched to snowboarding and skateboarding. He likes to fly low, float around on his board - winter or summer. Anže is our strong asset, a jack of all trades, working on web design and social media.
