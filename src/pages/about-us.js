@@ -54,7 +54,7 @@ It is always hard to describe with words a person like Luka. For us, he is truly
       </Tiles>
       <Tiles altText="Dethlef Gensel" tilesImage={data.detlefImage} addClass="">
         <h1>Dethlef Gensel</h1>
-				<h3>Co-founder, Office manager</h3>
+				<h3>Pilot</h3>
         <p>Dethlef is simply the best pilot we could have ever asked for.
 					Passionate mountaineer, skier and very skilful pilot with true passion
 					to fly in the mountain areas. With 5000 flight hours and variety of
