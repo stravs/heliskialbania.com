@@ -15,8 +15,7 @@ const PackagesPage = ({data}) => (
 	      marginRight: 0
 	    }}
 	    >
-	    <SectionRight altText="People having fun on pick up zone" sectionImage={data.hobsImage} title="What do I get for packages based on (hobbs) flying time?" text="Flying time is measured by the Hobbs meter- an instrument on board of the helicopter. The Hobbs meter begins to count flying time when the pilot pulls up the collective. Raising the collective causes the helicopter to climb – at this point the Hobbs meter starts tracking your flying time. Hobbs meter does not record time while helicopter is being on the ground with collective down- at pick up or landing zone, while refuelling…  We strongly believe this is the most honest way for our clients when buying heliskiing packages.
- With the proximity of 6-10 minute flying time to our prime terrain from our base in Valbona there will be minimum time spent for refuel and ferry flights from one zone to another.  Four hours of flying time, with the terrain that we fly, is roughly translated into 25-30 runs per group with runs from 400-1600 vertical meters.
+	    <SectionRight altText="People having fun on pick up zone" sectionImage={data.hobsImage} title="What do I get for packages based on (hobbs) flying time?" text="Flying time is measured by the Hobbs meter- an instrument on board of the helicopter.  We strongly believe this is the most honest way for our clients when buying heliskiing packages. With the proximity of 6-10 minute flying time to our prime terrain from our base in Valbona there will be minimum time spent for refuel and ferry flights from one zone to another. Four hours of flying time, with the terrain that we fly, is roughly translated into 25-30 runs per group with runs from 400-1600 vertical meters. 
 "/>
 {/*      <div className="container text-center py-2 py-lg-5">
         <div className="row">
