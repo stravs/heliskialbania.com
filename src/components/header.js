@@ -23,9 +23,15 @@ export default class Header extends React.Component {
             }}
           />
           <h1 className="mb-1 text-header" style={{ }}>HELISKI ALBANIA</h1>
-          <h3 className="mb-5 bg-light">
-            <em>Ride first descents in unexplored Albanian alps</em>
-          </h3>
+
+          <div className="row">
+            <div className="col-md-5 mx-auto">
+              <h3 className="mb-5 bg-light">
+                Ride first descents in unexplored Albanian alps
+              </h3>  
+            </div>
+          </div>
+
           <Link to="/packages" className="btn btn-primary">See our packages</Link>
         </div>
       </header>

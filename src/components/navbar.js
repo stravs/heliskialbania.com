@@ -36,7 +36,7 @@ export default class NavbarMain extends React.Component {
         <Navbar color="" light expand="md">
           <NavbarBrand href="/">
             <Img
-              alt="Logo Heliski Albania"              
+              alt="Logo Heliski Albania"
               resolutions={this.props.logoImage.resolutions}
               className="mt-2"
             />
@@ -55,6 +55,12 @@ export default class NavbarMain extends React.Component {
               </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="/about-us/">About us</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/contact-us/">Contact us</NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink href="https://www.instagram.com/heliskialbania/" target="_blank"><FaInstagram /></NavLink>
               </NavItem>
