@@ -7,9 +7,9 @@ import Package from '../components/package'
 import TitleImg from '../components/title-img'
 import Tiles from '../components/tiles'
 
-const AboutUsPage = ({data}) => (	
+const AboutUsPage = ({data}) => (
 	<div className="packages">
-	  <div 
+	  <div
 	    className="container-fluid"
 	    style={{
 	      marginLeft: 0,
@@ -31,12 +31,12 @@ We strongly believe the Nature is our biggest asset, respecting and preserving i
         <h3>Lead guide, Co-founder</h3>
         <p>Rok is an IMFGA mountain guide and instructor for future guides. He is a well respected heliski guide with years of experience working in Europe and Alaska both guiding and educating.
 He is a member of Pieps pro team, a part of the job that gives him inside knowledge in avalanche education and getting in touch with latest state of the art safety equipment. He has been educating individuals as well as professionals such as mountain rescue teams and military about avalanche safety and rescue procedures for the past 5 years.
-He grew up in Slovenia with magnificent Julian Alps as his backyard. At age 13 he was climbing big walls, skiing steeps at 15, and started with expeditions to the Himalayas at 17. 
+He grew up in Slovenia with magnificent Julian Alps as his backyard. At age 13 he was climbing big walls, skiing steeps at 15, and started with expeditions to the Himalayas at 17.
 He put up a new route on an unclimbed 7070m high Janak mountain in the Himalaya
 and completed several climbing expeditions in Peru, Kyrgyzstan, Patagonia Tibet, Nepal, and India.
 Skiing (especially Heliskiing) and exploring new places is his passion. Working in Albanian mountains, one of the last unexplored places in Europe is a great opportunity to combine what he loves most.</p>
       </Tiles>
- 
+
       <Tiles altText="Enrico Mosetti" tilesImage={data.moseImage} addClass="">
         <h1>Enrico Karletto Mosetti</h1>
         <h3>Snow safety director and guide</h3>
@@ -52,10 +52,21 @@ It is always hard to describe with words a person like Luka. For us, he is truly
 
 </p>
       </Tiles>
-      <Tiles altText="VIVA helicopters" tilesImage={data.vivaImage} addClass="">
-        <h1>Viva helicopters</h1>
-        <p>With more than 25 years of experience, headquartered in Neuhausen, Germany, AeroHeli is a mother company of VIVA Helicopters, the first commercial helicopter operator in Albania.</p>
-        <p>VIVA’s pilots, maintenance technicians and support personnel are all committed to safety and service excellence.</p>
+      <Tiles altText="Dethlef Gensel" tilesImage={data.detlefImage} addClass="">
+        <h1>Dethlef Gensel</h1>
+				<h3>Co-founder, Office manager</h3>
+        <p>Dethlef is simply the best pilot we could have ever asked for.
+					Passionate mountaineer, skier and very skilful pilot with true passion
+					to fly in the mountain areas. With 5000 flight hours and variety of
+					different missions in whole of Europe and Asia -  firefighting,
+					slingload, laserscanning missions and of course heliskiing - he is The
+					Man in our operation. He is the pilot with the most experience in the
+					area of Albanian Alps, he was flying for TGR while filming the movie
+					“Far Out” in this area and been a stunt pilot for different German movie
+					productions.  In a small private operation every person plays an
+					important role but the pilot –without any doubt- has a special one. Our
+					guides love to fly and work closely with Dethlef and their strong bond
+					and teamwork makes our operation even more special.</p>
       </Tiles>
       <Tiles altText="Petra Brajnik" tilesImage={data.petraImage} addClass="order-lg-last">
         <h1>Petra Brajnik</h1>
@@ -73,22 +84,22 @@ Sebastian has been working as a location scout, handled the logistics and worked
       <Tiles altText="Anze Stravs" tilesImage={data.stravsImage} addClass="order-lg-last">
         <h1>Anže Štravs</h1>
         <h3>Runner, dispatcher</h3>
-        <p>Born and raised in the Julian Alps, Slovenia, Anže was always connected with mountains and nature. After years of training on skis and ski jumping he switched to snowboarding and skateboarding. He likes to fly low, float around on his board - winter or summer. Anže is our strong asset, a jack of all trades, working on web design and social media. 
-<br/> 
-During the season Anže will work as a dispatcher. His  experience from the mountains, avalanche safety and freeride will play a big role in building our safety network; every day throughout  the season. 
+        <p>Born and raised in the Julian Alps, Slovenia, Anže was always connected with mountains and nature. After years of training on skis and ski jumping he switched to snowboarding and skateboarding. He likes to fly low, float around on his board - winter or summer. Anže is our strong asset, a jack of all trades, working on web design and social media.
+<br/>
+During the season Anže will work as a dispatcher. His  experience from the mountains, avalanche safety and freeride will play a big role in building our safety network; every day throughout  the season.
 </p>
       </Tiles>
 
     </div>
   </div>
-	
+
 )
 
 export default AboutUsPage
 
 
 export const query = graphql`
-  query AboutUsPageQuery {  
+  query AboutUsPageQuery {
     aboutImage: imageSharp(id: { regex: "/about-us/" }) {
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
@@ -108,12 +119,12 @@ export const query = graphql`
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
       }
-    } 
-    vivaImage: imageSharp(id: { regex: "/helicopter/" }) {
+    }
+    detlefImage: imageSharp(id: { regex: "/detlef/" }) {
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
       }
-    } 
+    }
     petraImage: imageSharp(id: { regex: "/petra/" }) {
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
@@ -123,12 +134,11 @@ export const query = graphql`
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
       }
-    } 
+    }
     stravsImage: imageSharp(id: { regex: "/stravs/" }) {
       sizes(maxWidth: 1280 ) {
         ...GatsbyImageSharpSizes
       }
-    }  
+    }
   }
 `
-
