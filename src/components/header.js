@@ -10,7 +10,7 @@ export default class Header extends React.Component {
       <header className="d-flex">
         <div className="container-fluid text-center my-auto">
           <Img
-            alt="Charging a line in Prokletje mountain range"              
+            alt="Charging a line in Prokletje mountain range"
             sizes={this.props.headerImage.sizes}
             className=""
             style={{
@@ -23,7 +23,7 @@ export default class Header extends React.Component {
             }}
           />
           <h1 className="mb-1 text-header" style={{ }}>HELISKI ALBANIA</h1>
-          <h3 className="mb-5">
+          <h3 className="mb-5 bg-light">
             <em>Ride first descents in unexplored Albanian alps</em>
           </h3>
           <Link to="/packages" className="btn btn-primary">See our packages</Link>
@@ -32,5 +32,3 @@ export default class Header extends React.Component {
     );
   }
 }
-
-
