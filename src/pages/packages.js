@@ -32,9 +32,9 @@ const PackagesPage = ({data}) => (
       </div>*/}
       <Tiles altText="Our pilot Detlef waiting for next run" tilesImage={data.datesImage} addClass="">
         <h1>Dates 2022</h1>
-        <h5>Week 1:   14.- 19. February</h5>
-        <h5>Week 2:   21.- 26. February</h5>
-        <h5>Week 3:   28. February - 5. March</h5>
+        <h5>Week 1:   12.- 18. February</h5>
+        <h5>Week 2:   20.- 26. February</h5>
+        <h5>Week 3:   27. February - 5. March</h5>
 
 
 
@@ -48,7 +48,7 @@ const PackagesPage = ({data}) => (
 				heli="1 helicopter - small group of 4 skiers 1 guide - 3 groups max per 1 helicopter - 4 (hobbs) hours of flying time per 1 group of 4 skiers"
 				includes="The package includes 6 nights with full board accommodation, 4(hobbs) hours of flying time, 5 possible days of skiing, IFMGA mountain guides"
 				price="7 350€ per person"
-				priceSecond="Extra hour of flying time - 2 800€ per group"
+				priceSecond="Extra hour of flying time - 2 500€ per group"
 			/>
 
 			<Section
@@ -59,7 +59,7 @@ const PackagesPage = ({data}) => (
 				heli="1 helicopter only for your group - entire operation only for your group - up to 12 people in a group - 12(hobbs) hours of flying time"
 				includes="The package includes 6 nights with full board accommodation, 12 hours of flying time, 5 possible days of skiing, IFMGA mountain guides"
 				price="Price up to 12 people, 12 (hobs) hours 84 000€ per group"
-				priceThird="Extra (hour) of flying time - 2 800€ per group" />
+				priceThird="Extra (hour) of flying time - 2 500€ per group" />
     </div>
   </div>
 
