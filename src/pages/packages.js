@@ -54,13 +54,13 @@ const PackagesPage = ({data}) => (
 			<Section altText="Nice turn with a scenic background" sectionImage=
       {data.privateImage} title="Private Heliski Albania"
       description="Having the whole operation and 1500 square km of
-      mountains for yourself. We guarantee you will have the best
+      mountains for you and your friends. We guarantee you will have the best
       possible experience. In this package you will have 8
       (hobbs) hours of fly time in a helicopter with up to max. 8
       people in the group. Come with your buddies and have the entire
       Albanian Prokletije mountains for yourself. Program is based on
-      fly time, so we can choose to ski the best terrain  that suits
-      you group and find the best snow available at the time of you
+      fly time, so we can choose to ski the best terrain that suits
+      your group and find the best snow available at the time of your
       stay." 
       heli="1 helicopter only for your group - entire
       operation only for your group - up to 8 people in a group - 8
