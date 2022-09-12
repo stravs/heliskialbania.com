@@ -48,27 +48,29 @@ const PackagesPage = ({data}) => (
 				heli="1 helicopter - small group of 4 skiers 1 guide - 3 groups max per 1 helicopter - 4 (hobbs) hours of flying time per 1 group of 4 skiers"
 				includes="The package includes 6 nights with full board accommodation, 4(hobbs) hours of flying time, 5 possible days of skiing, IFMGA mountain guides"
 				price="8 700€ per person"
-				priceSecond="Extra hour of flying time - 2 500€ per group"
+				priceSecond="Extra hour of flying time - 2 800€ per group"
 			/>
 
-			{/*<Section altText="Nice turn with a scenic background" sectionImage=
+			<Section altText="Nice turn with a scenic background" sectionImage=
       {data.privateImage} title="Private Heliski Albania"
       description="Having the whole operation and 1500 square km of
       mountains for yourself. We guarantee you will have the best
-      possible experience. In this package you will have 8-12
-      (hobbs) hours of fly time in a helicopter with up to max. 12
+      possible experience. In this package you will have 8
+      (hobbs) hours of fly time in a helicopter with up to max. 8
       people in the group. Come with your buddies and have the entire
       Albanian Prokletije mountains for yourself. Program is based on
       fly time, so we can choose to ski the best terrain  that suits
       you group and find the best snow available at the time of you
-      stay." heli="1 helicopter only for your group - entire
-      operation only for your group - up to 12 people in a group - 12
-      (hobbs) hours of flying time" includes="The package includes 6
-      nights with full board accommodation, 12 hours of flying time,
-      5 possible days of skiing, IFMGA mountain guides" price="Price
-      up to 12 people, 12 (hobs) hours 84 000€ per group"
-      priceThird="Extra (hour) of flying time - 2 500€ per group" 
-      />*/}
+      stay." 
+      heli="1 helicopter only for your group - entire
+      operation only for your group - up to 8 people in a group - 8
+      (hobbs) hours of flying time" 
+      includes="The package includes 6
+      nights with full board accommodation, 8 hours of flying time,
+      5 possible days of skiing, IFMGA mountain guides" 
+      price="Price for 8 people, 8 (hobs) hours 75 000€ per group"
+      priceThird="Extra (hour) of flying time - 2 800€ per group" 
+      />
     </div>
   </div>
 
