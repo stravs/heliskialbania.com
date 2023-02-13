@@ -34,7 +34,7 @@ export default class SectionPackages extends React.Component {
                 <ul className="list-unstyled mt-3 mb-4">
                   <li><strong>4+1</strong><br/><strong>small groups</strong> of 4 skiers and 1 guide</li>
                   <li><strong>3</strong><br/>groups max per helicopter</li>
-                  <li><strong>4</strong><br/>hobbs <strong>hours</strong> of flying time</li>
+                  <li><strong>4</strong><br/><strong>hours</strong> of flying time</li>
                   <li><strong>5</strong><br/>possible days of skiing</li>
                   
                 </ul>
@@ -48,7 +48,7 @@ export default class SectionPackages extends React.Component {
                 <ul className="list-unstyled mt-3 mb-4">
                   <li><strong>1500 square km</strong><br/>of mountains for yourself</li>
                   <li><strong>12</strong><br/>max people</li>
-                  <li><strong>8 to 12</strong><br/>hobbs hours of flying time</li>
+                  <li><strong>8 to 12</strong><br/>hours of flying time</li>
                   <li><strong>5</strong><br/>possible days of skiing</li>
                 </ul>
               </div>
