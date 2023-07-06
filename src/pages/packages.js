@@ -49,8 +49,8 @@ const PackagesPage = ({data}) => (
 				description="This is a classic heliskiing package based on 4 hours of fly time. Why don’t we sell vertical meters? When buying flying time we guarantee you to have the best possible experience and terrain. We will fly to the areas with the best snow and conditions and also to the terrain that suits you group best.  You will share your seat in a group of 4 skiers and  a guide. We warmly encourage you to book your seats together in a group of 4 buddies that are at the same level of skiing and therefore have the best possible experience. There will be maximum 3 groups per helicopter on the snow at the same time. Normally there is no waiting time for any of the groups with this set up. Are you more than 4 in your group ? Than consider booking Private Heliski Albania package for best possible experience and have the entire operation for yourself!"
 				heli="1 helicopter - small group of 4 skiers 1 guide - 3 groups max per 1 helicopter - 4 hours of flying time per 1 group of 4 skiers"
 				includes="The package includes 6 nights with full board accommodation, 4 hours of flying time, 5 possible days of skiing, IFMGA mountain guides"
-				price="8 700€ per person"
-				priceSecond="Extra hour of flying time - 2 800€ per group"
+				price="8 950€ per person"
+				priceSecond="Extra hour of flying time - 3 500€ per group"
 			/>
 
 			<Section altText="Nice turn with a scenic background" sectionImage=
@@ -70,8 +70,8 @@ const PackagesPage = ({data}) => (
       includes="The package includes 6
       nights with full board accommodation, 8 hours of flying time,
       5 possible days of skiing, IFMGA mountain guides" 
-      price="Price for 8 people, 8 hours 75 000€ per group"
-      priceThird="Extra (hour) of flying time - 2 800€ per group" 
+      price="Price for 8 people, 8 hours 95 000€ per group"
+      priceThird="Extra (hour) of flying time - 3 500€ per group" 
       />
     </div>
   </div>
