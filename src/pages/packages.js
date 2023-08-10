@@ -33,10 +33,9 @@ const PackagesPage = ({data}) => (
         </div>
       </div>*/}
       <Tiles altText="Our pilot Detlef waiting for next run" tilesImage={data.datesImage} addClass="">
-        <h1>Dates 2023</h1>
-        <h5>Week 1:   12.- 18. February</h5>
-        <h5>Week 2:   19.- 25. February</h5>
-        <h5>Week 3:   26. February - 4. March</h5>
+        <h1>Dates 2024</h1>
+        <h5>Week 1:   18.- 24. February</h5>
+        <h5>Week 2:   25. February - 2. March</h5>
 
 
 
