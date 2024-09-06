@@ -48,16 +48,10 @@ export default class NavbarMain extends React.Component {
                 <NavLink href="/location/">Location</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/safety/">Safety</NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink href="/packages/">Packages</NavLink>
               </NavItem>
             </Nav>
             <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/about-us/">About us</NavLink>
-              </NavItem>
               <NavItem>
                 <NavLink href="/contact-us/">Contact us</NavLink>
               </NavItem>
